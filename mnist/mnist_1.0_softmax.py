@@ -1,5 +1,6 @@
 # encoding: UTF-8
 # Copyright 2016 Google.com
+# Copyright 2019 Penguin Academy
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +15,7 @@
 # limitations under the License.
 
 import tensorflow as tf
-import tensorflowvisu
 import mnistdata
-import math
 
 print("Tensorflow version " + tf.__version__)
 tf.set_random_seed(0)
@@ -109,11 +108,5 @@ def training_step(i, update_test_data, update_train_data):
     sess.run(train_step, feed_dict={X: batch_X, Y_: batch_Y})
 
 
-train_data_update_freq = 10
-test_data_update_freq = 50
-one_test_at_start = True
-
-for n in range(2000):
-    request_data_update = n % train_data_update_freq == 0
-    request_test_data_update = (n % test_data_update_freq == 0) and (n > 0 or one_test_at_start)
-    training_step(n, request_test_data_update, request_data_update)
+for i in range(2000 + 1):
+    training_step(i, i % 50 == 0, i % 10 == 0)
