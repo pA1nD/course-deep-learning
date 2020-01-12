@@ -31,7 +31,7 @@ The [official Tensorflow Resources](https://www.tensorflow.org/overview) are wel
 
 ## License and Sources
 
-Main Sources and Credits:
+**Main Sources and Credits:**
 
 [Google, Tensorflow and deep learning without a PhD series, Martin Gorner](https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd)
 
@@ -39,7 +39,7 @@ Main Sources and Credits:
 
 [Tensorflow API Documentation and Resources](http://www.tensorflow.org)
 
-How to use this material?
+**How to use this material?*
 
 All course materials are copyrighted by their respective author and owner. If you are an instructor and would like to use any materials from this course (slides, labs, code) for educational purposes, you must reference the original source and this repository.
 
