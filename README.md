@@ -29,7 +29,7 @@ Stanford's [CS231n](https://cs231n.github.io/) is a good place to dive deeper in
 The (IMO) didactically best material on deep learning is [Google, Tensorflow and deep learning without a PhD series](https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd), by [Martin Görner](https://twitter.com/martin_gorner). 
 The [official Tensorflow Resources](https://www.tensorflow.org/overview) are well done and helpful. There are a big number of examples, tutorials and other resources available. Also helpful is their [page on additional learning resources](https://www.tensorflow.org/resources/learn-ml).
 
-## Licence and Sources
+## License and Sources
 
 Main Sources and Credits:
 
@@ -42,3 +42,5 @@ Main Sources and Credits:
 How to use this material?
 
 All course materials are copyrighted by their respective author and owner. If you are an instructor and would like to use any materials from this course (slides, labs, code) for educational purposes, you must reference the original source and this repository.
+
+This repository is open sourced under Apache-2.0 License but the license of the original author might apply.
