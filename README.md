@@ -1,6 +1,6 @@
-# HSG 10,860,1.00 - Introduction into Applied Deep Learning
+# HSG 10,860,1.00 - Introduction to Applied Deep Learning
 
-This repository contains all colabs and links to material for the GSERM Summerschool (Winterschool) of the University of St. Gallen (HSG), Switzerland for 10,860,1.00 - Introduction into Applied Deep Learning.
+This repository contains all colabs and links to material for the GSERM Summerschool (Winterschool) of the University of St. Gallen (HSG), Switzerland for 10,860,1.00 - Introduction to Applied Deep Learning.
 
 This course is using [TensorFlow 2.1.0](https://www.tensorflow.org/) and [Google Colab](https://colab.research.google.com/).
 
